@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for fnum in range(0, 10):
-    for snum in range(fnum + 1, 10):
-        if fnum == 8 and snum == 9:
-            print(f"{fnum}{snum}")
+for fnumb in range(0, 10):
+    for snumb in range(fnumb + 1, 10):
+        if fnumb == 8 and snumb == 9:
+            print("{}{}".format(fnumb, snumb))
         else:
-            print(f"{fnum}{snum}", end=",")
+            print("{}{}".format(fnumb,snumb), end=",")
